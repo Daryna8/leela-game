@@ -12,20 +12,17 @@ export const StyledHomeContainer = styled.div`
   }
 `;
 
-export const StyledTitle = styled.h2`
-  color: white;
-  font-size: 28px;
-  line-height: 1.3;
+export const StyledListContainer = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
-export const StyledInfo = styled.p`
-  font-size: 16px;
+export const StyledCard = styled.li`
+  width: 240px;
+  height: 320px;
+  margin-bottom: 18px;
 
-  @media only screen and (min-width: 768px) {
-    width: 660px;
-  }
-
-  @media only screen and (min-width: 1440px) {
-    width: 1200px;
-  }
+  border: solid black 1px;
+  border-radius: 3px;
 `;

@@ -1,12 +1,12 @@
 import {
-  StyledHomeContainer,
+  StyledInfoContainer,
   StyledInfo,
   StyledTitle,
 } from "./LeelaInfo.styled.js";
 
 const LeelaInfo = () => {
   return (
-    <StyledHomeContainer>
+    <StyledInfoContainer>
       <StyledTitle>Leela</StyledTitle>
       <StyledInfo>
         Ліла - є концепцією, яка має глибокі корені в індійській філософії та
@@ -42,7 +42,7 @@ const LeelaInfo = () => {
         Online (з будь якої точки світу) <br />
         Offline (Київ, *ваше місто за домовленістю)
       </StyledInfo>
-    </StyledHomeContainer>
+    </StyledInfoContainer>
   );
 };
 export default LeelaInfo;

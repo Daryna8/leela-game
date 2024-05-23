@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHomeContainer = styled.div`
+export const StyledInfoContainer = styled.div`
   margin: 25px;
 
   @media only screen and (min-width: 768px) {
