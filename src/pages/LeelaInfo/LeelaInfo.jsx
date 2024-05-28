@@ -28,6 +28,8 @@ const LeelaInfo = () => {
         бутті.
       </StyledInfo>
 
+      <button>Записатись на гру</button>
+
       <StyledTitle>Як проходить гра?</StyledTitle>
       <StyledInfo>Гральне поле складається з 72 клітинок.</StyledInfo>
       <StyledInfo>

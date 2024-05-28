@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage/HomePage";
 import Header from "./components/Header/Header";
+import LeelaInfo from "./pages/LeelaInfo/LeelaInfo";
+import Format from "./pages/Format/Format";
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<HomePage />} />
-        {/* <Route path="/more" element={<LearnMore />} /> */}
+        <Route path="/about" element={<LeelaInfo />} />
+        <Route path="/format" element={<Format />} />
 
         <Route path="*" element={<HomePage />} />
       </Routes>

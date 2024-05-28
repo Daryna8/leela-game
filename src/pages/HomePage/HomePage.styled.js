@@ -26,3 +26,26 @@ export const StyledCard = styled.li`
   border: solid black 1px;
   border-radius: 3px;
 `;
+
+export const StyledNavigation = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a {
+    color: #d0c5c5;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+
+    width: 240px;
+    height: 320px;
+    margin-bottom: 18px;
+
+    border: solid black 1px;
+    border-radius: 3px;
+
+    &.active {
+      color: white;
+    }
+  }
+`;
