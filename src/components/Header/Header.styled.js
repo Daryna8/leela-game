@@ -1,29 +1,40 @@
 import styled from "styled-components";
 
 export const StyledHeaderContainer = styled.div`
+  border-radius: 30px;
   display: flex;
-  justify-content: space-between;
-  height: 72px;
-  background: linear-gradient(
-    120deg,
-    #4c558c 31%,
-    #427f8f 61.46%,
-    #11809f 90.54%
-  );
+  justify-content: center;
+  align-items: center;
+  background-color: #33333380;
+  backdrop-filter: blur(10px);
+  color: white;
+  height: 48px;
+  margin: 38px 8px;
 `;
 
-export const StyledHomeNav = styled.div`
+export const StyledHeaderNav = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: 35px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
   a {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: #d0c5c5;
-
     font-size: 18px;
-    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    cursor: pointer;
+  }
+
+  :hover {
+    background-color: #fdfdfd;
+    transition: all 0.3s;
+    color: black;
+    border-radius: 15px;
   }
 `;
