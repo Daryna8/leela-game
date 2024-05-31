@@ -39,11 +39,6 @@ const LeelaInfo = () => {
         відбувається до тих пір, поки на гральному кубику не випаде 6. Бувають
         випадки коли "не пускає" в гру. ...{" "}
       </StyledInfo>
-      <StyledTitle>Формат взаємодії</StyledTitle>
-      <StyledInfo>
-        Online (з будь якої точки світу) <br />
-        Offline (Київ, *ваше місто за домовленістю)
-      </StyledInfo>
     </StyledInfoContainer>
   );
 };
